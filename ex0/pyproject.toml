@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sealed-laboratory"
+version = "0.1.0"
+description = "The Codex - ex0: virtual environments and dependency management"
+authors = ["jpaulo-p"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pandas = ">=2.0"
+numpy = ">=1.24"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
